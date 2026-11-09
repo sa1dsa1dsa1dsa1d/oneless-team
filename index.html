@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oneless | Audio Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Consolas&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">oneless<span>_</span></div>
+        <nav>
+            <a href="https://github.com/sa1dsa1dsa1dsa1d/oneless-team/blob/main/blackbone.py" class="btn-git" target="_blank">[ Скачать blackbone.py ]</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Audio Visualizer</h1>
+                <p class="subtitle">Утилита для захвата и анализа системного звука в реальном времени. FFT, осциллограф, LUFS и 3D-визуализация на Pygame.</p>
+                <div class="actions">
+                    <a href="https://github.com/sa1dsa1dsa1dsa1d/oneless-team" class="btn btn-primary" target="_blank">Исходный код</a>
+                    <a href="#features" class="btn btn-secondary">Подробнее</a>
+                </div>
+            </div>
+            
+            <div class="preview-container">
+                <div class="preview-border">
+                    <img src="preview.jpg" alt="Интерфейс визуализатора" class="screenshot">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Возможности</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Захват звука</h3>
+                    <p>WASAPI Loopback позволяет записывать системный звук без виртуальных кабелей.</p>
+                </div>
+                <div class="card">
+                    <h3>Спектр (FFT)</h3>
+                    <p>Логарифмическая шкала частот и плавная интерполяция для точной визуализации.</p>
+                </div>
+                <div class="card">
+                    <h3>Стереометр</h3>
+                    <p>Вектороскоп для оценки стереопанорамы с фиолетовыми индикаторами L/R.</p>
+                </div>
+                <div class="card">
+                    <h3>3D-Куб</h3>
+                    <p>Вращающаяся 3D-модель, реагирующая на амплитуду входящего сигнала.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <h2>Команда</h2>
+            <div class="team-container">
+                <div class="member">
+                    <span class="role">Тимлид</span>
+                    <a href="https://github.com/sa1dsa1dsa1dsa1d" target="_blank">sa1d</a>
+                </div>
+                <div class="member">
+                    <span class="role">Программист</span>
+                    <a href="https://github.com/sa1dsa1dsa1dsa1d" target="_blank">sa1d</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 oneless. Open Source Project.</p>
+    </footer>
+
+</body>
+</html>
